@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="app">
         <div className='focus-page'>
-            <Route path='*' component={Pages} />
+            <Switch>
+                <Route path='*' component={Pages} />
+            </Switch>
         </div>
     </div>
   );
