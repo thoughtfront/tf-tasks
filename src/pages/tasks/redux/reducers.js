@@ -1,7 +1,7 @@
 // import constants from './constants';
 
 const initState = {
-    test: false,
+    categories: [],
 };
 
 export default (state=initState, action) => {
